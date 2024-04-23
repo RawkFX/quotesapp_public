@@ -1,0 +1,5 @@
+# Created at 2024-02-23T14:26:26.284
+Boot Manifest-JAR contains absolute paths in classpath 'K:\FadeVox\quotesapp\backend\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

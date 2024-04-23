@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.fadevox.quotesapp.QuotesappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.937 s <<< FAILURE! -- in com.fadevox.quotesapp.QuotesappApplicationTests
+com.fadevox.quotesapp.QuotesappApplicationTests.testGetQuote -- Time elapsed: 0.078 s <<< ERROR!
+org.mockito.exceptions.misusing.WrongTypeOfReturnValue: 
+
+Quote cannot be returned by findAll()
+findAll() should return List
+***
+If you're unsure why you're getting above error read on.
+Due to the nature of the syntax above problem might occur because:
+1. This exception *might* occur in wrongly written multi-threaded tests.
+   Please refer to Mockito FAQ on limitations of concurrency testing.
+2. A spy is stubbed using when(spy.foo()).then() syntax. It is safer to stub spies - 
+   - with doReturn|Throw() family of methods. More in javadocs for Mockito.spy() method.
+
+	at com.fadevox.quotesapp.QuotesappApplicationTests.testGetQuote(QuotesappApplicationTests.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

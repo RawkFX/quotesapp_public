@@ -1,0 +1,18 @@
+# Configurare baza de date
+spring.datasource.url=<changeMe>
+spring.datasource.username=<changeMe>
+spring.datasource.password=<changeMe>
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Configurare setari de hibernare
+
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+# Configurare log's
+
+logging.level.org.springframework=INFO
+
+# Configurare port de rulare
+
+server.port=8080
