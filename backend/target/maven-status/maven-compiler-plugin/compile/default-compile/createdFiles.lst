@@ -1,8 +1,0 @@
-com\fadevox\quotesapp\QuotesappApplication.class
-com\fadevox\quotesapp\controller\ErrorHandler.class
-com\fadevox\quotesapp\service\QuoteService.class
-com\fadevox\quotesapp\repository\QuoteRepository.class
-com\fadevox\quotesapp\controller\HomeController.class
-com\fadevox\quotesapp\controller\QuoteController.class
-com\fadevox\quotesapp\exception\CustomException.class
-com\fadevox\quotesapp\model\Quote.class
