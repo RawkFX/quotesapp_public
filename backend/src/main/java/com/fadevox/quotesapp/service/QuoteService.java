@@ -31,8 +31,8 @@ public class QuoteService {
     {
         API_NINJAS_URL = "https://api.api-ninjas.com/v1/quotes";
         API_DEEPL_URL = "https://api-free.deepl.com/v2/translate";
-        API_DEEPL_KEY = "91b2461e-43dd-4df5-b6fb-080b329fc595:fx";
-        API_NINJAS_KEY = "u/Up7kMqWn2eztpLQbkJaw==Vu5nU1NrgSONNTiJ";
+        API_DEEPL_KEY = "<changeMe>";
+        API_NINJAS_KEY = "<changeMe>";
     }
 
     // Constructorul clasei QuoteService
